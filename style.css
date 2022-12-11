@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background_image.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    padding: 10px;
+}
+h1 span{
+    color: red;
+}
+h1 + p{
+    padding: 5px;
+    font-weight: 500;
+    
+}
+.container{
+    margin: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+    width: auto;
+    
+}
+form{
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 10px;
+}
+div.input-div div{
+    padding: 10px;
+    text-align: left;
+}
+div.input-div input{
+    padding: 10px;
+    width: 350px;
+}
+div.input-div label{
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+}
+div.input-div select{
+    padding: 10px;
+    width: 350px;
+}
+.feedback{
+    padding: 10px 10px;
+    text-align: left;
+}
+.movie-check{
+    text-align: left;
+    padding: 10px;
+}
+.gender{
+    text-align: left;
+    padding: 10px;
+}
+.feedback label{
+    display: block;
+    padding-bottom: 10px;
+}
+.Submit input{
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
